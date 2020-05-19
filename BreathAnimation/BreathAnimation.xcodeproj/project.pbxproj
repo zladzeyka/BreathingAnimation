@@ -13,6 +13,8 @@
 		FDF9F20C246AF30C002166D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF9F20B246AF30C002166D0 /* Assets.xcassets */; };
 		FDF9F20F246AF30C002166D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF9F20E246AF30C002166D0 /* Preview Assets.xcassets */; };
 		FDF9F212246AF30C002166D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9F210246AF30C002166D0 /* LaunchScreen.storyboard */; };
+		FDF9F21A246AF54B002166D0 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9F219246AF54B002166D0 /* FlowerView.swift */; };
+		FDF9F21C246B09FC002166D0 /* BlurFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9F21B246B09FC002166D0 /* BlurFadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDF9F20E246AF30C002166D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDF9F211246AF30C002166D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF9F213246AF30C002166D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF9F219246AF54B002166D0 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		FDF9F21B246B09FC002166D0 /* BlurFadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FDF9F205246AF30A002166D0 /* AppDelegate.swift */,
 				FDF9F207246AF30A002166D0 /* SceneDelegate.swift */,
 				FDF9F209246AF30A002166D0 /* ContentView.swift */,
+				FDF9F21B246B09FC002166D0 /* BlurFadeTransition.swift */,
+				FDF9F219246AF54B002166D0 /* FlowerView.swift */,
 				FDF9F20B246AF30C002166D0 /* Assets.xcassets */,
 				FDF9F210246AF30C002166D0 /* LaunchScreen.storyboard */,
 				FDF9F213246AF30C002166D0 /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF9F206246AF30A002166D0 /* AppDelegate.swift in Sources */,
+				FDF9F21A246AF54B002166D0 /* FlowerView.swift in Sources */,
+				FDF9F21C246B09FC002166D0 /* BlurFadeTransition.swift in Sources */,
 				FDF9F208246AF30A002166D0 /* SceneDelegate.swift in Sources */,
 				FDF9F20A246AF30A002166D0 /* ContentView.swift in Sources */,
 			);
